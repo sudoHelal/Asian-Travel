@@ -71,7 +71,7 @@ main {
   background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
   background-repeat: no-repeat;
   background-position: center, center;
-  background-size: 100% 100%;
+  background-size: 90% 90%;
 }
 .banner-text {
   padding: 105px 190px;
@@ -104,14 +104,19 @@ select {
 }
 .banner-form {
   padding: 16px;
+  padding-bottom: 5px;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
+  width: 80%;
+  margin: 0px auto;
 }
 .banner-input > button {
   background: #ff5400;
   color: white;
   font-size: 16px;
   font-weight: 700;
+  /* padding: 10px; */
+
 }
 .popular-container {
   display: flex;
@@ -469,18 +474,19 @@ li {
   }
   .banner-description {
     margin: 14px;
+    margin-top: 10px;
   }
   .banner-title {
     color: black;
     font-size: 2.5rem;
     font-weight: 800;
-    margin-bottom: -15px;
+    margin-bottom: -5px;
   }
   .banner-form input,
   button,
   select {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-bottom: 10px;
   }
   .mobile-icon {
@@ -663,8 +669,6 @@ li {
 .footer-section-container{
   padding: 30px 45px;
   }
-  .footer-section-container > .nav-logo{
-
-  }
+  
 
 }
