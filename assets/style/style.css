@@ -84,13 +84,14 @@ main {
   font-weight: 800;
   margin-bottom: 24px;
 }
+
 .banner-description {
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 48px;
 }
-.banner-form input,
+.banner-input input,
 button,
 select {
   padding: 16px 85px 16px 16px;
@@ -99,8 +100,9 @@ select {
   border: 0;
   border-radius: 8px;
   margin-right: 24px;
+
 }
-.banner-input {
+.banner-form {
   padding: 16px;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
@@ -381,8 +383,7 @@ li {
   padding-bottom: 23px;
   border-bottom: 1px solid rgba(19, 19, 24, 0.1);
 }
-.newsletter-form > button,
-input {
+.newsletter-form > button, .newsletter-form > input {
   display: block;
   margin: 20px 0px;
   padding: 16px 0px;
