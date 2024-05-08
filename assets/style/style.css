@@ -594,7 +594,7 @@ input {
     color: rgb(255, 84, 0);
     font-size: 16px;
     font-weight: 800;
-    margin-top: -1px;
+    margin: 5px 0px;
   }
 
   .discount-text-on-img {
@@ -603,15 +603,41 @@ input {
   .info p {
     font-size: 12px;
   }
-  .book-now-btn {
-    padding: 9px 20px;
+  .discount-text-on-img > .book-now-btn {
+    padding: 9px 10px;
+    width: 40%;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: -2px;
+    margin-bottom: 7px;
+
   }
   .discount-text-on-img {
-    width: 50%;
-    height: 75%;
+    width: 77%;
+    height: 88%;
+    
   }
   .discount-section-container .see-all-package-btn{
     width: 40%;
+  }
+  .discount-img-item:nth-child(odd) .discount-text-on-img {
+    padding: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-61%, -50%);
+}
+  .discount-img-item:nth-child(even) .discount-text-on-img {
+    padding: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-38%, -50%);
+  }
+  
+  .discount-img-item {
+    position: relative;
+    margin-bottom: 25px;
   }
 
   /* Start Perfect place section */
